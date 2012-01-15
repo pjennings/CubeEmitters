@@ -1,0 +1,15 @@
+Emitter for Radio Thermostat (http://www.radiothermostat.com) thermostats.
+
+Just logs the data found at /tstat, which includes:
+
+* temp      (temperature)
+* tmode     (thermostat mode, 0=off, 1=heat, 2=cool, 3=auto)
+* fmode     (fan mode, 0=off, 1=??, 2=on)
+* override
+* hold
+* t_heat    (heat set point)
+* t_cool    (cool set point)
+* t_state   (thermostat state, 0=off, 1=heating, 2=cooling)
+* f_state   (fan state, 0=off, 1=on)
+* time
+
